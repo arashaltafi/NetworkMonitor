@@ -1,4 +1,4 @@
-package com.arashaltafi.speedtest
+package com.arashaltafi.speedtest.service
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver

@@ -1,4 +1,4 @@
-package com.arashaltafi.speedtest
+package com.arashaltafi.speedtest.service
 
 import android.app.*
 import android.content.Context
@@ -9,6 +9,8 @@ import android.net.TrafficStats
 import android.os.Build
 import android.os.IBinder
 import androidx.annotation.RequiresApi
+import com.arashaltafi.speedtest.R
+import com.arashaltafi.speedtest.ui.MainActivity
 import java.util.concurrent.Executors
 import java.util.concurrent.ScheduledExecutorService
 import java.util.concurrent.TimeUnit
