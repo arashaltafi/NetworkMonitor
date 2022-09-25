@@ -12,9 +12,9 @@
 
         <ListView
             android:id="@+id/list"
-            tools:listitem="@layout/row_item"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            tools:listitem="@layout/row_item" />
 
     </FrameLayout>
 
@@ -50,24 +50,24 @@
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
-            tools:text="Your Download Speed is"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="40dp"
             android:textColor="#fff"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:text="Your Download Speed is" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="0 Kb/s"
             android:layout_below="@+id/textView3"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:textColor="#fff"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:text="0 Kb/s" />
     </RelativeLayout>
 
 </RelativeLayout>
